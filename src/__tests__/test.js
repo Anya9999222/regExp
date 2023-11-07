@@ -1,4 +1,4 @@
-import Validator from "../js/validator";
+import Validator from '../js/validator';
 
 test('Принимает корректное имя', () => {
   expect(Validator.validateUsername('Anya')).toBe('Anya');
